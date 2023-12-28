@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Celebrare Editor</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+        <div id="heading">
+            <h1>Celebrare Card Editor</h1>
+        </div>
+
+        <div id="content">
+
+            <div id="sec-1">
+                <h3>Card Styles</h3>
+            </div>
+
+            <div id="sec-2">
+                <div id="edit">
+                    <h2>"Pick a Card to edit it."</h2>
+                </div>
+            </div>
+
+            <div id="sec-3">
+
+                <h3>Font Style</h3>
+
+                 <label for="fontSelector">Select a font style:</label>
+                <select id="fontSelector">
+                 <option value="Arial, sans-serif">Arial</option>
+                 <option value="Times New Roman, serif">Times New Roman</option>
+                 <option value="Courier New, monospace">Courier New</option>
+                 <option value="Verdana, sans-serif">Verdana</option>
+                 <option value="Brush Script MT, Brush Script Std, cursive">Cursive</option>
+                </select>
+
+                <br>
+
+                <label for="fontSize">Select font size:</label>
+                <input type="number" id="fontSize" value="16">
+
+                <br>
+
+                <label for="textArea">Enter text:</label>
+                <textarea id="textArea" rows="2" cols="15">Sample text</textarea>
+
+                <label for="colorPicker">Choose a color:</label>
+                <input type="color" id="colorPicker" value="#ff0000">
+                
+            </div>
+
+        </div>
+
+        <script type="" src="script.js"></script>
+    </body>
+</html>
